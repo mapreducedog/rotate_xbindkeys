@@ -1,0 +1,8 @@
+A "profile manager" for xbindkeys, 
+use python rotate_xbindkeys --help for options
+
+save your profiles in .conf files in the same folder.
+if in the settings.json file no "profiles" attribute is defined, the profiles are the .conf files in the current directory.
+otherwise, if a "profiles" attribute has a list of strings, it will consider the entries of this list as profiles to cycle through.
+
+
